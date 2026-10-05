@@ -14,6 +14,7 @@ E-Commerce-Revenue-Profitability-Analysis/
 │   │   └── Performance_Insights.png
 │   │
 │   └── E-commerce_sales_analysis.pbix
+|   |__ E-commerce_sales_analysis.pdf 
 │
 ├── Data/
 │   ├── Cleaned_Data/
@@ -37,6 +38,8 @@ The `Dashboard` folder contains the Power BI report and screenshots of the dashb
 
 - **E-commerce_sales_analysis.pbix**  
   Main Power BI report containing the complete E-Commerce Sales Analysis dashboard.
+- **E-commerce_sales_analysis.pdf**  
+  Main Power BI report containing the complete E-Commerce Sales Analysis dashboard in Pdf format.
 
 ### Dashboard Screenshots
 
