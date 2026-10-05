@@ -19,22 +19,34 @@ The project uses **Power BI** to transform raw data into an interactive dashboar
 
 ## 📊 Dataset
 
-The dataset contains e-commerce order information with the following key columns:
+The dataset contains e-commerce order, product, customer, pricing, and profitability information.
 
 | Column | Description |
 |---|---|
-| Order ID | Unique identifier for each order |
-| Order Date | Date on which the order was placed |
-| Product Name | Name of the product |
+| Order_ID | Unique identifier for each order |
+| Order_Date | Date on which the order was placed |
+| Product_ID | Unique identifier for each product |
+| Product_Name | Name of the product |
 | Category | Product category |
-| Profit | Profit generated from the order |
+| Unit_Cost | Cost of one unit of the product |
+| Unit_Price | Selling price of one unit |
+| Quantity | Number of units ordered |
+| Gross_sale | Total sales value before discounts |
+| Discount_Percent | Discount percentage applied to the order |
 | Revenue | Revenue generated from the order |
-| Profit Margin | Profitability percentage |
-| Discount | Discount offered on the order |
-| Order Channel | Channel through which the order was placed |
-| Customer Age | Age of the customer |
-| Customer Gender | Gender of the customer |
-| Order Status | Current status of the order |
+| Commission_Percent | Commission percentage associated with the order |
+| Shipping_Cost | Cost incurred for shipping |
+| Total_expense | Total expenses associated with the order |
+| Profit | Profit generated from the order |
+| Profit_margin(%) | Profit margin percentage |
+| City | Customer/order city |
+| State | Customer/order state |
+| Payment_Method | Payment method used for the order |
+| Sales_Channel | Channel through which the order was placed |
+| Order_Status | Status of the order |
+| Customer_Age | Age of the customer |
+| Customer_Gender | Gender of the customer |
+| Product_Rating | Customer rating given to the product |
 
 ## 🔍 Problem Statement
 
@@ -49,13 +61,13 @@ The dataset contains e-commerce order information with the following key columns
 
 ## 📈 Dashboard Features
 
-- **KPI Cards** for key metrics such as Revenue, Profit, and Profit Margin.
-- **Product and Category Analysis** to identify high- and low-performing areas.
-- **Profitability Analysis** using Profit and Profit Margin.
-- **Customer Demographic Analysis** based on age and gender.
-- **Order Channel Analysis** to compare different sales channels.
-- **Order Status Analysis** to understand order performance.
-- **Time-Based Analysis** to identify revenue and profitability trends.
+- **KPI Cards** to display key metrics such as Revenue, Profit, Profit Margin, and Quantity.
+- **Product and Category Analysis** to identify high- and low-performing products and categories.
+- **Discount Analysis** to understand the impact of discounts on revenue and profitability.
+- **Customer Analysis** based on Customer Age and Customer Gender.
+- **Sales Channel Analysis** to compare performance across different sales channels.
+- **Order Status Analysis** to evaluate order performance.
+- **Time-Based Analysis** to identify revenue and profitability trends over time.
 - **Interactive Category and Month Slicers** that allow users to quickly filter the dashboard and view specific revenue and profitability insights based on their selected category and month.
 
 ## 📈 Dashboard Preview
